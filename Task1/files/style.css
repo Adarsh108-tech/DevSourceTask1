@@ -1,5 +1,4 @@
-*{
-  margin :0;
+*{margin :0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -80,6 +79,33 @@ color: white;
   border-radius: 5px;
   padding: 10px;
 }
+#VED_1080{
+  color: darkslateblue;
+  background: scroll;
+  background-color: chartreuse;
+  flex-direction: column;
+}
+#VED_1080_BUTTON {
+  border-radius: 25px;
+  width: 120px;
+  height: 50px;
+  background: rgb(66,104,184);
+  background: linear-gradient(90deg, rgba(66,104,184,1) 23%, rgba(0,255,162,1) 100%);
+  transition-property: all;
+  transition-duration: 3s;
+  transition-delay: 1s;
+  transition-timing-function: step-start;
+}
+#VED_1080_BUTTON:active{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+#VED_1080_BUTTON:hover{
+  background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+
 
 #logo{
   height: 90px;
