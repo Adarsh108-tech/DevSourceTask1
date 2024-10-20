@@ -1,87 +1,91 @@
-*{
-  margin :0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#heheBoi_1080{
-color: white;
-gap: 3;
-background-color: rgb(243, 243, 243);
-flex-direction: column;
+#heheBoi_1080 {
+  color: white;
+  gap: 3;
+  background-color: rgb(243, 243, 243);
+  flex-direction: column;
 }
 
-#heheBoi_1080_button{
-background: rgb(255,255,255);
-background: linear-gradient(5deg, rgba(255,255,255,0) 0%, rgba(0,212,255,0.4646650896686799) 46%, rgba(0,255,245,1) 92%);
-height: 50%;
-width: 75%;
-border: none;
-border-radius: 15px ;
-transition: all;
-transition: 0.5s;
+#heheBoi_1080_button {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(5deg, rgba(255, 255, 255, 0) 0%, rgba(0, 212, 255, 0.4646650896686799) 46%, rgba(0, 255, 245, 1) 92%);
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 15px;
+  transition: all;
+  transition: 0.5s;
 }
 
-#heheBoi_1080_button:hover{
-background: rgb(255,255,255);
-background: linear-gradient(5deg, rgba(255,255,255,0) 0%, rgba(0,255,245,1) 41%, rgba(0,212,255,0.4646650896686799) 100%);
+#heheBoi_1080_button:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(5deg, rgba(255, 255, 255, 0) 0%, rgba(0, 255, 245, 1) 41%, rgba(0, 212, 255, 0.4646650896686799) 100%);
 
-color: white;
-}
-#KrishnaSharma_1080{  
-background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 8%, rgba(74,4,74,1) 21%, rgba(80,48,48,1) 30%, rgba(142,142,142,1) 41%, rgba(73,58,58,1) 58%, rgba(142,27,27,0.9985754985754985) 68%, rgba(0,0,0,1) 92%);
-flex-direction: column;
+  color: white;
 }
 
-#KrishnaSharma_1080_button{
-background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-height: 50%;
-width: 75%;
-border: none;
-border-radius: 15px ;
-transition: all;
-transition: 0.5s;
+#KrishnaSharma_1080 {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 8%, rgba(74, 4, 74, 1) 21%, rgba(80, 48, 48, 1) 30%, rgba(142, 142, 142, 1) 41%, rgba(73, 58, 58, 1) 58%, rgba(142, 27, 27, 0.9985754985754985) 68%, rgba(0, 0, 0, 1) 92%);
+  flex-direction: column;
 }
 
-#KrishnaSharma_1080_button:hover{
-  background: rgb(172,24,117);
-  background: linear-gradient(90deg, rgba(172,24,117,1) 8%, rgba(81,14,87,1) 21%, rgba(11,50,107,1) 30%, rgba(10,115,69,1) 49%, rgba(9,9,121,0.9985754985754985) 67%, rgba(12,173,205,1) 77%, rgba(0,212,255,1) 92%);
-  
-color: white;
+#KrishnaSharma_1080_button {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 15px;
+  transition: all;
+  transition: 0.5s;
 }
 
-#Vihaan_1080{
+#KrishnaSharma_1080_button:hover {
+  background: rgb(172, 24, 117);
+  background: linear-gradient(90deg, rgba(172, 24, 117, 1) 8%, rgba(81, 14, 87, 1) 21%, rgba(11, 50, 107, 1) 30%, rgba(10, 115, 69, 1) 49%, rgba(9, 9, 121, 0.9985754985754985) 67%, rgba(12, 173, 205, 1) 77%, rgba(0, 212, 255, 1) 92%);
+
+  color: white;
+}
+
+#Vihaan_1080 {
   color: rgb(141, 251, 255);
   gap: 3;
   background-color: rgb(141, 255, 236);
   flex-direction: column;
-  }
-#Vihaan_1080_button{
+}
+
+#Vihaan_1080_button {
   color: rgb(255, 255, 255);
   background-color: rgb(2, 2, 2);
   border-radius: 5px;
   padding: 10px;
 }
-#Vihaan_1080_button:hover{
-  background: rgb(255,255,255);
-  color: rgb(0, 0, 0);
-  }
 
-#Unknown-Entity226{
+#Vihaan_1080_button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#Unknown-Entity226 {
   background-color: darkblue;
   padding: 10px;
   margin: 10px;
 }
-#Unknown-Entity226_button{
+
+#Unknown-Entity226_button {
   color: white;
   background-color: red;
   border-radius: 5px;
   padding: 10px;
 }
 
-#logo{
+#logo {
   height: 90px;
   width: 100px;
   transition: all;
@@ -92,27 +96,33 @@ color: white;
 
 
 @keyframes scaleUpDown {
+
   0%,
   100% {
     transform: scaleY(1) scaleX(1);
   }
+
   50%,
   90% {
     transform: scaleY(1.1);
   }
+
   75% {
     transform: scaleY(0.95);
   }
+
   80% {
     transform: scaleX(0.95);
   }
 }
 
 @keyframes shake {
+
   0%,
   100% {
     transform: skewX(0) scale(1);
   }
+
   50% {
     transform: skewX(5deg) scale(0.9);
   }
@@ -122,12 +132,15 @@ color: white;
   0% {
     opacity: 0;
   }
+
   20% {
     opacity: 1;
   }
+
   80% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     top: -100%;
@@ -136,16 +149,18 @@ color: white;
 }
 
 @keyframes glow {
+
   0%,
   100% {
     background-color: #ef5a00;
   }
+
   50% {
     background-color: #ff7800;
   }
 }
 
-.dev{
+.dev {
   position: absolute;
 }
 
@@ -173,11 +188,9 @@ color: white;
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(
-      farthest-corner at 10px 0,
-      #d43300 0%,
-      #ef5a00 95%
-    );
+    background-image: radial-gradient(farthest-corner at 10px 0,
+        #d43300 0%,
+        #ef5a00 95%);
     transform: scaleX(0.8) rotate(45deg);
     border-radius: 0 40% 60% 40%;
     filter: drop-shadow(0 0 10px #d43322);
@@ -286,9 +299,17 @@ color: white;
 
 
 @keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .square {
@@ -298,45 +319,48 @@ color: white;
   animation: float 5s infinite;
 }
 
-.square1{
+.square1 {
   background: rgba(255, 75, 75, 0.599);
   top: 10%;
   left: 10%;
 }
 
-.square2{
+.square2 {
   background: rgba(255, 255, 75, 0.599);
   top: 40%;
   left: 80%;
 }
-.square3{
+
+.square3 {
   background: rgba(75, 255, 75, 0.599);
   top: 60%;
   left: 60%;
 }
-.square4{
+
+.square4 {
   background: rgba(255, 75, 255, 0.599);
   top: 14%;
   left: 30%;
 }
-.square5{
+
+.square5 {
   background: rgba(255, 255, 255, 0.599);
   top: 50%;
   left: 50%;
 }
 
-body{
+body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
 }
 
 
-nav{
+nav {
   letter-spacing: 1px;
   font: sans-serif;
   background: rgb(73, 60, 60);
-  color : white;
+  color: white;
   height: 20vh;
   width: 100%;
   display: flex;
@@ -347,7 +371,7 @@ nav{
   position: relative;
 }
 
-.navbar{
+.navbar {
   color: black;
   display: flex;
   width: 70%;
@@ -355,7 +379,7 @@ nav{
 }
 
 
-.wrapper{
+.wrapper {
   background-color: rgba(120, 162, 181, 0.514);
   gap: 10rem;
   width: 100%;
@@ -365,11 +389,11 @@ nav{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height:fit-content;
+  height: fit-content;
   position: relative;
 }
 
-div{
+div {
   width: 10rem;
   height: 7rem;
   border-radius: 20px;
@@ -378,13 +402,15 @@ div{
   align-items: center;
   background: rgba(255, 75, 75, 0.599);
 }
-#Raunak_1080{
+
+#Raunak_1080 {
   display: flex;
   flex-direction: column;
   gap: 5px;
   background-color: rgb(14, 16, 69);
 }
-#Raunak_1080_button{
+
+#Raunak_1080_button {
   border: none;
   outline: none;
   height: 50%;
@@ -395,21 +421,22 @@ div{
   font-size: 15px;
 
 }
-#Raunak_1080_button:hover{
+
+#Raunak_1080_button:hover {
   box-shadow: 5px 5px 10px rgb(107, 107, 255);
   background-color: white;
   color: blue;
   transition-duration: 0.5s;
-  
+
 }
 
-#Adarsh_1080{
+#Adarsh_1080 {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-#Adarsh_1080_button{
+#Adarsh_1080_button {
   outline: none;
   border: none;
   height: 50%;
@@ -420,7 +447,7 @@ div{
 }
 
 #Adarsh_1080_button:hover {
-  transform: translateX(-5px) translateY(-5px) ;
+  transform: translateX(-5px) translateY(-5px);
   box-shadow: 5px 5px white;
   color: white;
   transition: all;
@@ -428,11 +455,11 @@ div{
   background-color: black;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.desc{
+.desc {
   top: 15%;
   right: 13.5%;
   position: absolute;
@@ -449,7 +476,7 @@ div{
   z-index: 10;
 }
 
-.about{
+.about {
   top: 15%;
   right: 3%;
   position: absolute;
@@ -466,7 +493,7 @@ div{
   z-index: 10;
 }
 
-.about-btn{
+.about-btn {
   margin: 5px;
   height: 3rem;
   width: 7rem;
@@ -480,7 +507,7 @@ div{
   transition-duration: 0.5s;
 }
 
-.desc-btn{
+.desc-btn {
   margin: 5px;
   font-size: larger;
   height: 3rem;
@@ -494,19 +521,19 @@ div{
   transition-duration: 0.25s;
 }
 
-.desc-btn:hover{
+.desc-btn:hover {
   transition: all;
   transition-duration: 0.5s;
   border-bottom: 2px solid red;
 }
 
-.about-btn:hover{
+.about-btn:hover {
   transition: all;
   transition-duration: 0.5s;
   border-bottom: 2px solid red;
 }
 
-#yakshit_1080_button{
+#yakshit_1080_button {
   outline: none;
   border: none;
   height: 50%;
@@ -517,42 +544,104 @@ div{
   color: rgb(83, 79, 79);
 }
 
-#yakshit_1080_button:hover{
+#yakshit_1080_button:hover {
   background: rgb(255, 255, 255);
   color: black;
   border-radius: 3px;
   height: 40%;
   width: 70%;
   box-shadow: 5px 5px black;
-  }
+}
 
-#Satya_1080{
+#Satya_1080 {
   color: rgb(230, 191, 248);
   gap: 3;
   font-family: 'Verdana', sans-serif;
-  font-size:larger;
+  font-size: larger;
   font-weight: bold;
   background-color: rgb(0, 0, 0);
   flex-direction: column;
-  }
+}
+
 #Satya_1080_button {
-  background: linear-gradient(45deg, #e84e33, #fdb8c1); 
-  color: white; 
-  padding: 16px 24px; 
+  background: linear-gradient(45deg, #e84e33, #fdb8c1);
+  color: white;
+  padding: 16px 24px;
   border: none;
-  border-radius: 12px; 
+  border-radius: 12px;
   font-size: 18px;
-  font-weight: bold; 
-  transition: all 0.3s ease; 
-  cursor: pointer; }
-  
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
 #Satya_1080_button:hover {
-  background: linear-gradient(45deg, #0056b3, #0095ff); 
-  transform: translateY(-2px);  
-  }
-  
+  background: linear-gradient(45deg, #0056b3, #0095ff);
+  transform: translateY(-2px);
+}
+
 #Satya_1080_button:active {
   background: linear-gradient(45deg, #276e06, #c2f785);
-  transform: translateY(0); 
-  
-  } 
+  transform: translateY(0);
+
+}
+
+
+#Arnav_1080 {
+  /* background: linear-gradient(90deg, #00c6ff, #0072ff); */
+  background-color: #85FFBD;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+
+  /* background: linear-gradient(135deg, #00b09b, #96c93d); */
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+#Arnav_1080_btn {
+  color: white;
+  background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+  font-size: large;
+  padding: 20px;
+  width: 125px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.5);
+  cursor: pointer;
+}
+
+
+
+#Arnav_1080_btn:hover {
+  background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+  transform: translateY(3px);
+  transition: all 0.5s ease-in-out; 
+  box-shadow: 10px 10px 15px hsla(279, 100%, 59%, 0.5);
+  animation: arnav 4s ease-in-out infinite;
+}
+
+@keyframes arnav {
+  0% {
+    box-shadow: 5px 5px 3px hsla(0, 100%, 50%, 0.7), -5px -5px 3px hsla(240, 100%, 50%, 0.7);
+  }
+
+  25% {
+    box-shadow: -5px -5px 3px hsla(240, 100%, 50%, 0.7), 5px 5px 3px hsla(0, 100%, 50%, 0.7);
+  }
+
+  50% {
+    box-shadow: 5px 5px 3px hsla(240, 100%, 50%, 0.7), -5px -5px 3px hsla(0, 100%, 50%, 0.7);
+  }
+  75% { 
+    box-shadow: -5px -5px 3px hsla(0, 100%, 50%, 0.7), 5px 5px 3px hsla(240, 100%, 50%, 0.7);
+  }
+
+  100% {
+    box-shadow: 5px 5px 3px hsla(0, 100%, 50%, 0.7), -5px -5px 3px hsla(240, 100%, 50%, 0.7);
+  }
+}
+
