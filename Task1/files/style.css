@@ -428,6 +428,79 @@ div{
   background-color: black;
 }
 
+#Aryan_Thakur_1080_button {
+  background-color: #edab27; 
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition: all;
+  cursor: pointer;
+  border-radius: 8px;
+  height: 50%;
+  width: 10%;
+  border-radius: 15px;
+  transition-duration: 0.3s;
+   
+}
+
+#Aryan_Thakur_1080_button:hover{
+  background: rgb(108, 198, 83);
+  color: black;
+  border-radius: 3px;
+  height: 9%;
+  width: 15%;
+  box-shadow: 5px 5px black;
+  }
+
+#Aryan_Thakur_1080_button {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative; 
+}
+#Aryan_Thakur_1080_button {
+  z-index: 2; 
+  display: block;
+  position: absolute;
+  width: 11%;
+  height: 9%; 
+}
+#Aryan_Thakur_1080_button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 5px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+#Aryan_Thakur_1080_button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 5px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+#Aryan_Thakur_1080_button:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+#Aryan_Thakur_1080_button::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
 .hidden{
   display: none;
 }
