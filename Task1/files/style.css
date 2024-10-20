@@ -81,6 +81,34 @@ color: white;
   padding: 10px;
 }
 
+
+#Vishesh_1080 {
+  color: cyan;
+  background-color: rgb(12, 92, 92);
+  width: 150px;
+  flex-direction: column;
+}
+
+#Vishesh_1080_button {
+  height: 50%;
+  width: 75%;
+  background-color: aqua;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 550;
+  box-shadow: 3px 3px 2px #226427fc;
+  &:hover {
+      cursor: pointer;
+      transform: translateX(7px) translateY(-5px) skew(5deg);
+      transition-property: transform;
+      transition-duration: 1s;
+      transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+
+
+
 #logo{
   height: 90px;
   width: 100px;
