@@ -1179,6 +1179,41 @@ color: black;
   transform: scale(90%);
 }
 
+#raja_29 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0f7fa;
+  box-shadow: 2px 2px 5px black;
+}
+
+#raja_29 p {
+  font-weight: bold;
+  font-size: large;
+}
+
+#raja_29_button {
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 35px;
+  color: white;
+  font-size: large;
+  background: rgb(62, 62, 204);
+  background: linear-gradient(
+    119deg,
+    rgb(204, 62, 62) 15%,
+    rgb(255, 179, 0) 100%
+    );
+  box-shadow: 2px 2px 5px black;
+  transition: transform 0.5s ease;
+}
+
+#raja_29_button:hover{
+  transform: scale(90%);
+}
+
+
+
 .ankit-button {
   font-family: 'Ropa Sans', sans-serif;
   color: white;
@@ -1271,4 +1306,5 @@ color: black;
 .shape {
   fill: #0E1822;
 }
+
 
