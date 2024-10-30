@@ -3,8 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*My work */
+#stanzin_1080_button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 22px; 
+  font-weight: bold;
+  font-family: 'Arial Black', sans-serif; 
+  letter-spacing: 1.5px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(255, 87, 51, 0.4); 
+  animation: pulse 2s infinite; 
+}
 
+#stanzin_1080_button:hover {
+  background-color: #ff2e00; 
+  transform: scale(1.05); 
+  box-shadow: 0 8px 25px rgba(255, 47, 0, 0.6); 
+}
+#stanzin_1080_button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 0.4s ease;
+}
+
+#stanzin_1080_button:hover:before {
+  transform: translateX(100%) rotate(45deg);
+}
+
+#stanzin_1080_button:active {
+  background-color: #ff1a00;
+  box-shadow: 0 2px 10px rgba(255, 87, 51, 0.4);
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); } 
+}
 #UY1_1080{
   background-color: #643A3E;
   flex-direction: column;
@@ -1163,6 +1208,41 @@ color: black;
   transform: scale(90%);
 }
 
+#raja_29 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0f7fa;
+  box-shadow: 2px 2px 5px black;
+}
+
+#raja_29 p {
+  font-weight: bold;
+  font-size: large;
+}
+
+#raja_29_button {
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 35px;
+  color: white;
+  font-size: large;
+  background: rgb(62, 62, 204);
+  background: linear-gradient(
+    119deg,
+    rgb(204, 62, 62) 15%,
+    rgb(255, 179, 0) 100%
+    );
+  box-shadow: 2px 2px 5px black;
+  transition: transform 0.5s ease;
+}
+
+#raja_29_button:hover{
+  transform: scale(90%);
+}
+
+
+
 .ankit-button {
   font-family: 'Ropa Sans', sans-serif;
   color: white;
@@ -1255,4 +1335,5 @@ color: black;
 .shape {
   fill: #0E1822;
 }
+
 
