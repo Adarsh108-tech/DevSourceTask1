@@ -1008,6 +1008,35 @@ div {
   animation: arnav 4s ease-in-out infinite;
 }
 
+#RishiRamani_1080{
+  color: rgb(34, 34, 37);
+  gap: 3;
+  background: rgba(255, 75, 75, 0.599);
+  flex-direction: column;
+  display:flex;
+  padding: 5px;
+  }
+
+#RishiRamani_button{
+  background-color: rgb(39, 180, 211);
+  background: linear-gradient(5deg, rgba(255,255,255,0) 0%, rgba(7, 214, 255, 0.465) 36%, rgb(31, 195, 255) 94%);
+  height: 50%;
+  width: 75%;
+  padding: 10px;
+  margin: 3px 0px 0px 0px;
+  color: rgb(23, 1, 119);
+  border:none;
+  border-radius: 15px;
+  transition: background-color 1.5s,color 1.5s;
+}
+#RishiRamani_button:hover{
+  background: rgb(255,255,255);
+  background: linear-gradient(5deg, rgba(255,255,255,0) 0%, rgba(0,255,245,1) 41%, rgba(0,212,255,0.4646650896686799) 100%);
+  transition: all;
+  transition: 0.25s;
+  color: rgb(48, 107, 203);
+}
+
 
 @keyframes arnav {
   0% {
