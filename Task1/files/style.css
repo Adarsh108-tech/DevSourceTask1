@@ -894,6 +894,52 @@ div {
   
   } 
 
+#Khushi-bhaskar01_button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #6e1dd3, #4893ff);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+#Khushi-bhaskar01_button :hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #9f4dff, #6e1dd3);
+    border-radius: 50px; 
+    padding: 20px 35px;
+  }
+#Khushi-bhaskar01_button:active{
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #4893ff, #6e1dd3);
+}
+#khushi-bhaskar01_button::before {
+  content: "★";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: rgba(255, 215, 0, 0.8);
+  font-size: 40px;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+#khushi-bhaskar01_button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+#khushi-bhaskar01_button:active::before {
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.8;
+}
+
 #AdarshSingh117{
     color: white;
     gap: 3;
@@ -1335,5 +1381,6 @@ color: black;
 .shape {
   fill: #0E1822;
 }
+
 
 
